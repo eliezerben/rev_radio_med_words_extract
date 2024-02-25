@@ -1,7 +1,3 @@
-# 
-# It's better to give a full meaningful sentence to pos_tagger because it uses the surrounding context to assign POS
-# Lemmatizer is case sensitive
-#
 import re
 import string
 from pathlib import Path
