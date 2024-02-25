@@ -64,7 +64,7 @@ def main(transcript_file_path: Path, output_file_path: Path):
                 non_english_words.add(lemma)
 
     output_file_path.parent.mkdir(exist_ok=True)
-    output_file_path.write_text('\n'.join(non_english_words))
+    output_file_path.write_text('\n'.join(sorted(non_english_words)))
 
 
 def get_args():
